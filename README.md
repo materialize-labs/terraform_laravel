@@ -15,7 +15,7 @@ This repository provides [Terraform](https://www.terraform.io/) Infrastructure a
 ## Documentation
 Detailed documentation [can be found here](https://docs.google.com/document/d/1mzabSN_vyfr7yeGAB36hTZb_MBChmFD4vjJrGCjWB1o/edit?ts=5ec056b7&pli=1#).
 
-### Providers and Services
+## Providers and Services
 
 ##### DigitalOcean
 * Kubernetes cluster for application service
@@ -26,7 +26,7 @@ Detailed documentation [can be found here](https://docs.google.com/document/d/1m
 ##### AWS
 * Managed ElasticSearch for full-text search
 
-### Estimated Costs
+## Estimated Costs
 
 ##### Production Environments
 
