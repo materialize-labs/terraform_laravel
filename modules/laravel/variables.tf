@@ -1,0 +1,43 @@
+# Project variables
+variable "project" {}
+variable "env" {}
+variable "do_region" {}
+variable "aws_key" {}
+variable "aws_secret" {}
+variable "aws_region" {}
+variable "gitlab_token" {}
+variable "gitlab_username" {}
+variable "gitlab_project" {}
+
+# Infra variables
+variable "mysql_instances" {}
+variable "mysql_instance_type" {}
+variable "redis_instances" {}
+variable "redis_instance_type" {}
+variable "es_instances" {}
+variable "es_instance_type" {}
+variable "k8s_instances" {}
+variable "k8s_instance_type" {}
+variable "project_replicas" {}
+
+# App variables
+variable "debug" {
+  default = false
+}
+variable "domain" {}
+variable "domain_record" {}
+variable "app_key" {}
+variable "google_id" {}
+variable "google_secret" {}
+variable "google_redirect" {}
+variable "aws_bucket" {}
+variable "jwt_secret" {}
+variable "mail_driver" {}
+variable "mail_host" {}
+variable "mail_port" {}
+variable "mail_username" {}
+variable "mail_password" {}
+variable "media_url" {}
+variable "passport_id" {}
+variable "passport_secret" {}
+variable "queue_connection" {}
